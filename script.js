@@ -120,6 +120,8 @@ function stopTimer() {
   if (second < 10) {
     secString = "0" + second;
   }
+  document.getElementById("play").style.display = "flex";
+  document.getElementById("pause").style.display = "none";
   document.getElementById("hour2").innerHTML = hrString;
   document.getElementById("min2").innerHTML = minString;
   document.getElementById("sec2").innerHTML = secString;
