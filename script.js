@@ -100,6 +100,8 @@ function resetTimer() {
   minute = 0;
   second = 0;
   count = 0;
+  document.getElementById("play").style.display = "flex";
+  document.getElementById("pause").style.display = "none";
   document.getElementById("hour").innerHTML = "00";
   document.getElementById("min").innerHTML = "00";
   document.getElementById("sec").innerHTML = "00";
