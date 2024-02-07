@@ -1,0 +1,262 @@
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  background-color: #fafafa;
+}
+.left-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+  height: 100vh;
+  background-color: #fa7553;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+}
+
+.right-panel {
+  width: 75%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fafafa;
+}
+
+.display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 205px;
+  height: 251px;
+  border-radius: 50px;
+  background-color: #1f1f1f;
+  border: 5px;
+  border-color: #fff;
+  z-index: 1;
+  justify-content: space-between;
+}
+
+.apple-watch {
+  position: absolute;
+  margin-left: 14px;
+  z-index: 0;
+  width: 280px;
+}
+
+.status-bar {
+  color: #fff;
+  font-size: 0.8rem;
+  height: 30px;
+  width: 100%;
+  text-align: center;
+}
+
+.safeArea {
+  display: none;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+#homePage {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 4px;
+}
+
+#homePage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#msgPage {
+  border-radius: 16px;
+  z-index: 3;
+}
+
+#musicPage {
+  width: 100%;
+}
+
+#timerPage {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 24px;
+  gap: 16px;
+}
+
+.current-time {
+  color: #fff;
+  font-size: 2.4rem;
+  margin: 0;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #fff;
+  gap: 4px;
+}
+
+.day {
+  margin: 0%;
+}
+.weather {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  font-size: 1rem;
+  color: #ffdf22;
+}
+
+.weather-icon {
+  width: 110%;
+}
+
+.bottom-nav {
+  box-sizing: border-box;
+  display: flex;
+  margin: 10px 20px 20px 20px;
+  flex-direction: row;
+  height: 50px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.navpill {
+  color: #fff;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: #ffffff20;
+  cursor: pointer;
+}
+
+.navpill.active {
+  color: #fa7553;
+}
+
+.nav-icon {
+  font-size: 1rem;
+}
+
+.hour {
+  color: #fa7553;
+}
+
+.rooster {
+  background-color: #fff;
+  width: 100%;
+  margin: 8px 8px 0px 8px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  border-radius: 0px 24px 24px 24px;
+  scrollbar-width: none;
+}
+
+.message {
+  padding: 0px 16px;
+  border-bottom: 1px solid #a4a0a0;
+  cursor: pointer;
+}
+
+.messageContent {
+  padding: 0 12px;
+  line-height: 1.4rem;
+}
+
+.backButton {
+  padding: 8px;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  cursor: pointer;
+}
+
+button {
+  border-width: 0;
+}
+
+.messageContainer {
+  display: none;
+  background-color: #fff;
+  width: 100%;
+  margin: 8px 8px 0px 8px;
+  flex-direction: column;
+  border-radius: 0px 24px 24px 24px;
+  overflow: scroll;
+  scrollbar-width: none;
+}
+
+.musicPlayer {
+  padding: 8px;
+  width: 100%;
+  text-align: center;
+  /* overflow: scroll; */
+  scrollbar-width: none;
+}
+
+#spotify {
+  width: 100%;
+  text-align: center;
+  font-size: 0.2rem !important;
+}
+
+#currentDuration,
+#lapDuration {
+  color: #737373;
+  font-size: 1rem;
+  margin: 4px;
+}
+
+.value2 {
+  font-size: 1rem;
+}
+
+.value {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.timerControls {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  gap: 16px;
+}
+
+.tcBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff20;
+  padding: 8px;
+  border-radius: 4px;
+}
