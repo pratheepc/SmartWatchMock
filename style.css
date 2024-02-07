@@ -11,7 +11,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 25%;
+  width: 50%;
   height: 100vh;
   background-color: #fa7553;
   color: #fff;
@@ -20,7 +20,7 @@ body {
 }
 
 .right-panel {
-  width: 75%;
+  width: 50%;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -32,14 +32,15 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 205px;
-  height: 251px;
-  border-radius: 50px;
+  width: 212px;
+  height: 255px;
+  border-radius: 54px;
   background-color: #1f1f1f;
   border: 5px;
   border-color: #fff;
   z-index: 1;
   justify-content: space-between;
+  gap: 8px;
 }
 
 .apple-watch {
@@ -87,6 +88,7 @@ body {
 
 #musicPage {
   width: 100%;
+  overflow: hidden;
 }
 
 #timerPage {
@@ -214,10 +216,11 @@ button {
 }
 
 .musicPlayer {
-  padding: 8px;
+  padding: 0px 8px 8px 8px;
+  margin-top: 4px;
   width: 100%;
   text-align: center;
-  /* overflow: scroll; */
+  overflow-x: scroll;
   scrollbar-width: none;
 }
 
