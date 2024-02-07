@@ -262,4 +262,11 @@ button {
   background-color: #ffffff20;
   padding: 8px;
   border-radius: 4px;
+  cursor: pointer;
+  width: 10px;
+  height: 10px;
+}
+
+#pause {
+  display: none;
 }

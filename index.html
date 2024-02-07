@@ -91,9 +91,18 @@
             </h1>
           </div>
           <div class="timerControls">
-            <div class="tcBtn"><i class="fa-solid fa-refresh"></i></div>
-            <div class="tcBtn"><i class="fa-solid fa-play"></i></div>
-            <div class="tcBtn"><i class="fa-solid fa-stop"></i></div>
+            <div class="tcBtn" onclick="resetTimer()">
+              <i class="fa-solid fa-refresh"></i>
+            </div>
+            <div class="tcBtn" id="pause" onclick="pauseTimer()">
+              <i class="fa-solid fa-pause"></i>
+            </div>
+            <div class="tcBtn" id="play" onclick="startTimer()">
+              <i class="fa-solid fa-play"></i>
+            </div>
+            <div class="tcBtn" onclick="stopTimer()">
+              <i class="fa-solid fa-stop"></i>
+            </div>
           </div>
         </div>
         <div class="bottom-nav">
